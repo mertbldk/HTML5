@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background-color: rgb(255, 70, 107);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header header{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    width: 10em;
+    height: 55%;
+    background-color: rgb(255, 181, 43);
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#header main{
+    width: 25em;
+    height: 55%;
+    margin-right: 70px;
+}
+#header main nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#header main nav a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
+    background-color: rgb(255, 181, 43);
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#main{
+    background-color: rgb(82, 190, 252);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#main article{
+    width: 60%;
+    height: 90%;
+    background-color: rgba(255, 201, 101, 0.863);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#main article header{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 181, 43);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 5em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main article section{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#main article section p{
+    background-color: rgb(255, 181, 43);
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#main aside{
+    background-color: rgba(255, 201, 101, 0.863);
+    margin-right: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#main aside p{
+    background-color: rgb(255, 181, 43);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid white;
+}
+#footer{
+    background-color: rgb(94, 255, 148);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer nav{
+    background-color: rgba(255, 201, 101, 0.863);
+    width: 20%;
+    height: 70%;
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#footer nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+#footer nav ul li{
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#footer main{
+    background-color: rgba(255, 201, 101, 0.863);
+    width: 60%;
+    height: 70%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#footer main article{
+    width: 100%;
+    height: 100%;
+}
+#footer main article section{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
